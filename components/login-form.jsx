@@ -26,6 +26,7 @@ export default function LoginForm(prevState, formData) {
         />
         <br />
         <label htmlFor="">Your password</label>
+        {/* yorum */}
         {state?.errors?.email && (<small>{state.errors.email}</small>)} <br />
         <input
           type="password"
